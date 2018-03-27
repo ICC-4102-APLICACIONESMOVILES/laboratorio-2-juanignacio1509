@@ -51,6 +51,12 @@ public class MainActivity extends AppCompatActivity {
 
                         }
 
+                        else if (id == R.id.nav_actual)
+                        {
+                            fgt = new BlankFragment();
+
+                        }
+
                         if (fgt != null)
                         {
                             FragmentTransaction ft = getFragmentManager().beginTransaction();

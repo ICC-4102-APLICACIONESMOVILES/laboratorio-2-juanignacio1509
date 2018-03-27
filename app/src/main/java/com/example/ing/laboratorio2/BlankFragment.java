@@ -74,7 +74,7 @@ public class BlankFragment extends Fragment {
         }
     }
 
-    
+
 
     @Override
     public void onDetach() {
